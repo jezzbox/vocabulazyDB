@@ -1,0 +1,22 @@
+{
+  "_id":{"$oid":"AAAAAAAAAA"},
+ "authIdentifier":"google-auth|1234567890",
+ "displayName":"Jezza",
+ "decks": [
+    {"deckId":1, "name":"My first deck", "created":"2021-01-01T00:00:00.000Z"},
+    {"deckId":2, "name":"My second deck", "created":"2021-01-01T00:00:00.000Z"},
+    ],
+ "deckSettings":{
+   "easyBonus":130,
+   "easyInterval":5760,
+   "graduatingInterval":1440,
+   "intervalModifier":100,
+   "maximumInterval":36500,
+   "maxNewCards":20,
+   "maxReviewCards":200,
+   "startingEase":250,
+   "steps":"1 10"
+    },
+ "defaultDeckId":1
+}
+  
